@@ -41,7 +41,7 @@ body{ min-width:320px; max-width:640px; width: 100%; height: 100%; margin: auto;
 .public_head{height: 4rem; line-height: 4rem;  background-color: #10a0eb; text-align: center; font-size: 2rem; font-weight: bold; color: #fff; position: relative;}
 .public_head .public_head_back{position: absolute; left: 1rem; top: 50%; margin-top: -12px; width: 65px; height: 24px; background: url(../images/icon_title.png); background-size:120px 158px; background-position:-51px -132px;}
 .public_con{ width: 100%;}
-.public_item{ background-color: #fff; margin-top: 1rem; color: #2a2a2a;}
+.public_item{ background-color: #fff; margin-top: 1rem; color: #535454;}
 .public_item_hd{ height: 45px; line-height: 45px; }
 .public_item_hd a{font-size: 1.6rem; position: relative;display: block; padding-left: 4rem;}
 .public_item_hd a:before{ content: ""; position: absolute; left: 1rem; top: 10px; background:url(../images/icon_title.png) no-repeat;background-size:120px 169px; }
@@ -56,9 +56,20 @@ body{ min-width:320px; max-width:640px; width: 100%; height: 100%; margin: auto;
 .public_item_hd a.xhh_whole:before{width:26px; height: 26px; background-position: -46px -96px;}
 .public_item_hd a .arrow{ position: absolute; right: 10px; top: 50%; margin-top: -5px;  width: 16px; height: 10px; background: url(../images/icon_title.png) no-repeat; background-size:128px 169px; background-position:-103px -126px;}
 .public_item_hd a .current{background-position:-103px -98px;}
-.public_item_bd{padding:0 1rem 1rem;}
+.public_item_bd{padding:0 1rem 2rem;}
 .public_subtitle{ border-bottom: 1px solid #e1e1e1; color: #10a0eb;font-size: 1.5rem; padding-bottom: 0.7rem;}
 .public_subcon{padding-top: 0.5rem; line-height: 2;}
+.public_pic{width: 80%; margin-left: 10%;}
 .public_pic img{ width: 100%; vertical-align: top;}
 .mt_normal{margin-top: 1.5rem;}
 .mt_small{margin-top: 1.2rem;}
+.static_tab{ width: 100%;}
+.static_tab th,td{text-align: center; height: 2rem;}
+.static_tab td{color: #10a0eb;}
+.timeline{margin-left: 0.6rem;}
+.timeline li{border-left: 1px solid #e1e1e1; padding:0 0 1.5rem 1rem; position: relative;}
+.timeline li .circle{ position: absolute; left: -7px; top: 0; width: 12px; height: 12px; background-color: #fff; border:2px solid #e1e1e1; border-radius: 100%;}
+.timeline .time{color:#dbdbdb; position: absolute; top: -2px;}
+.timeline li .timeline_con{line-height: 2; padding-top: 2rem;}
+.paragraph{line-height: 2;}
+.color_10a0eb{color:#10a0eb;}
