@@ -233,12 +233,15 @@
 <script src="js/public.js"></script>
 <script>
     $(function(){
-        var slideHeight0 = $('.swiper-wrapper>.swiper-slide').eq(0).height();
-        var slideHeight1 = $('.swiper-wrapper>.swiper-slide').eq(1).height();
-        var slideHeight2 = $('.swiper-wrapper>.swiper-slide').eq(2).height();
-        var slideHeight3 = $('.swiper-wrapper>.swiper-slide').eq(3).height();
-        console.log(slideHeight0+","+slideHeight1+","+slideHeight2+","+slideHeight3);
-       // $(".swiper-wrapper").height(slideHeight1);
+        var _slide = $('.swiper-wrapper>.swiper-slide');
+        var arr = [];
+        //获取初始化各个.swiper-slide的高度;
+        function getInitHeight(){
+            for(var i=0; i<_slide.length; i++){
+                arr.push(_slide.eq(i).height());
+            }
+        }
+        getInitHeight();
         var mySwiper = new Swiper('.swiper-container',{
             autoHeight: false,
             calculateHeight: true,
@@ -248,21 +251,19 @@
                 $(".tabs li").eq(mySwiper.activeIndex).addClass('default');
             }
         });
+        $(".swiper-wrapper").height(arr[0]);
         $(".tabs li").on('click',function(e){
             e.preventDefault();
             $(".tabs .default").removeClass('default');
             $(this).addClass('default');
             mySwiper.swipeTo($(this).index());
-            console.log($(this).index());
-           // $(".swiper-wrapper").height($('.swiper-wrapper>.swiper-slide').eq($(this).index()).height());
-
+            $(".swiper-wrapper").height(arr[$(this).index()]);
         });
         $(".tabs li").click(function(e){
-            $(".swiper-wrapper").height("slideHeight" + $(this).index());
             e.preventDefault();
         });
-
     })
+
 
 </script>
 </body>
