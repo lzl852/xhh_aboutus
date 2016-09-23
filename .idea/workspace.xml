@@ -26,8 +26,8 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="941" max-vertical-offset="2280">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1568" max-vertical-offset="2280">
+              <caret line="101" column="70" selection-start-line="101" selection-start-column="70" selection-end-line="101" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="safeguard.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/safeguard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9010417" vertical-offset="1248" max-vertical-offset="2033">
-              <caret line="260" column="73" selection-start-line="260" selection-start-column="73" selection-end-line="260" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.109375" vertical-offset="1229" max-vertical-offset="2052">
+              <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
               <folding>
                 <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#li#1;tag#ul#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -45,6 +45,16 @@
                 <element signature="tag#div#3;tag#div#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slideTabSwiperHtml/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.464286" vertical-offset="3281" max-vertical-offset="3914">
+              <caret line="194" column="9" selection-start-line="192" selection-start-column="5" selection-end-line="194" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,10 +85,10 @@
         <option value="$PROJECT_DIR$/dist/product.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/slideTabSwiperHtml/css/swiper.min.css" />
-        <option value="$PROJECT_DIR$/dist/css/style.css" />
         <option value="$PROJECT_DIR$/slideTabSwiperHtml/index.html" />
         <option value="$PROJECT_DIR$/slideTabSwiperHtml/js/idangerous.swiper.min.js" />
         <option value="$PROJECT_DIR$/dist/safeguard.html" />
+        <option value="$PROJECT_DIR$/dist/css/style.css" />
       </list>
     </option>
   </component>
@@ -277,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="变化" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -466,14 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slideTabSwiperHtml/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9340278" vertical-offset="2388" max-vertical-offset="3914">
-          <caret line="154" column="20" selection-start-line="154" selection-start-column="20" selection-end-line="154" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slideTabSwiperHtml/js/idangerous.swiper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.04" vertical-offset="8699" max-vertical-offset="24301">
@@ -484,18 +486,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/slideTabSwiperHtml/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.464286" vertical-offset="3281" max-vertical-offset="3914">
+          <caret line="194" column="9" selection-start-line="192" selection-start-column="5" selection-end-line="194" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="941" max-vertical-offset="2280">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1568" max-vertical-offset="2280">
+          <caret line="101" column="70" selection-start-line="101" selection-start-column="70" selection-end-line="101" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/safeguard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9010417" vertical-offset="1248" max-vertical-offset="2033">
-          <caret line="260" column="73" selection-start-line="260" selection-start-column="73" selection-end-line="260" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.109375" vertical-offset="1229" max-vertical-offset="2052">
+          <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
           <folding>
             <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#li#1;tag#ul#0;tag#div#1;tag#div#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
