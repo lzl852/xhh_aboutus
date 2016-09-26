@@ -243,9 +243,11 @@
         }
         getInitHeight();
         var mySwiper = new Swiper('.swiper-container',{
-            autoHeight: false,
+            autoHeight: true,
             calculateHeight: true,
             cssWidthAndHeight: true,
+            allowSwipeToNext:false,
+            allowSwipeToPrev:false,
             onSlideChangeStart: function(){
                 $(".tabs .default").removeClass('default');
                 $(".tabs li").eq(mySwiper.activeIndex).addClass('default');
@@ -259,6 +261,10 @@
             mySwiper.swipeTo($(this).index());
             $(".swiper-wrapper").height(arr[$(this).index()]);
         });
+        $(".swiper-slide").on('swipe',function(){
+            console.log($(this).index());
+            $(".swiper-wrapper").height(arr[$(this).index()]);
+        })
     })
 </script>
 </body>
