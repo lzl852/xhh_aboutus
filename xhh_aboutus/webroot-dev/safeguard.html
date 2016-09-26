@@ -261,9 +261,11 @@
             mySwiper.swipeTo($(this).index());
             $(".swiper-wrapper").height(arr[$(this).index()]);
         });
-        $(".swiper-slide").on('swipe',function(){
-            console.log($(this).index());
-            $(".swiper-wrapper").height(arr[$(this).index()]);
+        $(".swiper-slide").on('swipeRight',function(){
+            $(".swiper-wrapper").height(arr[$(this).index()-1]);
+        });
+        $(".swiper-slide").on('swipeLeft',function(){
+            $(".swiper-wrapper").height(arr[$(this).index()+1]);
         })
     })
 </script>
