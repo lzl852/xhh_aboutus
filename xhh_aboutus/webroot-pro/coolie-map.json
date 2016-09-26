@@ -1,0 +1,178 @@
+{
+  "/about.html": {
+    "main": [],
+    "js": [
+      {
+        "dest": "/static/js/71ad33e8d938c01ea82d8604b6354e0f.js",
+        "deps": [
+          "../webroot-dev/js/zepto.min.js"
+        ]
+      },
+      {
+        "dest": "/static/js/7b0ee1366f598649c7c0a1059e9782f4.js",
+        "deps": [
+          "../webroot-dev/js/touch.js"
+        ]
+      },
+      {
+        "dest": "/static/js/fffe0af16590328723b7d6529883179a.js",
+        "deps": [
+          "../webroot-dev/js/public.js"
+        ]
+      }
+    ],
+    "css": [
+      {
+        "dest": "/static/css/178d298cf376397bba568be8e42c593a.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/css/style.css",
+            "res": [
+              "../webroot-dev/images/icon_nav.png",
+              "../webroot-dev/images/icon_title.png",
+              "../webroot-dev/images/pro_img2.png",
+              "../webroot-dev/images/pro_gu.png",
+              "../webroot-dev/images/pro_yin.png",
+              "../webroot-dev/images/pro_bao.png"
+            ]
+          }
+        ]
+      }
+    ],
+    "res": [
+      "../webroot-dev/images/about_01.jpg",
+      "../webroot-dev/images/about_02.jpg"
+    ]
+  },
+  "/index.html": {
+    "main": [],
+    "js": [],
+    "css": [
+      {
+        "dest": "/static/css/178d298cf376397bba568be8e42c593a.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/css/style.css",
+            "res": [
+              "../webroot-dev/images/icon_nav.png",
+              "../webroot-dev/images/icon_title.png",
+              "../webroot-dev/images/pro_img2.png",
+              "../webroot-dev/images/pro_gu.png",
+              "../webroot-dev/images/pro_yin.png",
+              "../webroot-dev/images/pro_bao.png"
+            ]
+          }
+        ]
+      }
+    ],
+    "res": [
+      "../webroot-dev/images/banner.png"
+    ]
+  },
+  "/product.html": {
+    "main": [],
+    "js": [
+      {
+        "dest": "/static/js/71ad33e8d938c01ea82d8604b6354e0f.js",
+        "deps": [
+          "../webroot-dev/js/zepto.min.js"
+        ]
+      },
+      {
+        "dest": "/static/js/7b0ee1366f598649c7c0a1059e9782f4.js",
+        "deps": [
+          "../webroot-dev/js/touch.js"
+        ]
+      },
+      {
+        "dest": "/static/js/fffe0af16590328723b7d6529883179a.js",
+        "deps": [
+          "../webroot-dev/js/public.js"
+        ]
+      }
+    ],
+    "css": [
+      {
+        "dest": "/static/css/178d298cf376397bba568be8e42c593a.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/css/style.css",
+            "res": [
+              "../webroot-dev/images/icon_nav.png",
+              "../webroot-dev/images/icon_title.png",
+              "../webroot-dev/images/pro_img2.png",
+              "../webroot-dev/images/pro_gu.png",
+              "../webroot-dev/images/pro_yin.png",
+              "../webroot-dev/images/pro_bao.png"
+            ]
+          }
+        ]
+      }
+    ],
+    "res": [
+      "../webroot-dev/images/pro_img1.png",
+      "../webroot-dev/images/pro_img3.png"
+    ]
+  },
+  "/safeguard.html": {
+    "main": [],
+    "js": [
+      {
+        "dest": "/static/js/71ad33e8d938c01ea82d8604b6354e0f.js",
+        "deps": [
+          "../webroot-dev/js/zepto.min.js"
+        ]
+      },
+      {
+        "dest": "/static/js/7b0ee1366f598649c7c0a1059e9782f4.js",
+        "deps": [
+          "../webroot-dev/js/touch.js"
+        ]
+      },
+      {
+        "dest": "/static/js/5cddce72056c41e77b13599942b80f2a.js",
+        "deps": [
+          "../webroot-dev/js/idangerous.swiper.min.js"
+        ]
+      },
+      {
+        "dest": "/static/js/fffe0af16590328723b7d6529883179a.js",
+        "deps": [
+          "../webroot-dev/js/public.js"
+        ]
+      }
+    ],
+    "css": [
+      {
+        "dest": "/static/css/178d298cf376397bba568be8e42c593a.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/css/style.css",
+            "res": [
+              "../webroot-dev/images/icon_nav.png",
+              "../webroot-dev/images/icon_title.png",
+              "../webroot-dev/images/pro_img2.png",
+              "../webroot-dev/images/pro_gu.png",
+              "../webroot-dev/images/pro_yin.png",
+              "../webroot-dev/images/pro_bao.png"
+            ]
+          }
+        ]
+      },
+      {
+        "dest": "/static/css/75b79932ee1a06384788157e02b2e5d6.css",
+        "deps": [
+          {
+            "src": "../webroot-dev/css/swiper.min.css",
+            "res": []
+          }
+        ]
+      }
+    ],
+    "res": [
+      "../webroot-dev/images/safe_img1.png",
+      "../webroot-dev/images/safe_img2.png",
+      "../webroot-dev/images/safe_img3.png"
+    ]
+  }
+}
