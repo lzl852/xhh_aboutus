@@ -180,7 +180,6 @@
                                 </tr>
                             </table>
                         </div>
-
                     </div>
                     <div class="swiper-slide">
                         <p class="mt_normal c_ff1e00">资金动态由鑫合汇专业风控人员全程现场监控</p>
@@ -221,18 +220,16 @@
     <div class="public_item">
         <div class="public_item_hd"><a class="xhh_whole" href="#">投资全程保障 - 更安稳<i class="arrow"></i></a></div>
         <div class="public_item_bd filing">
+            <p class="mt_small">浙公网安备 33010502000726号<br/>浙ICP证B2-20150262<br/>浙ICP备14025828号 </p>
             <div class="public_pic mt_normal"><img src="images/safe_img2.png"></div>
-            <p class="mt_normal">浙公网安备 33010502000726号<br/>浙ICP证B2-20150262<br/>浙ICP备14025828号 </p>
-            <div class="public_pic public_pic_90 mt_normal" style="width: 100%; margin-left: 0;"><img src="images/safe_img3.png"></div>
         </div>
     </div>
 </div>
 <script src="js/zepto.min.js"></script>
 <script src="js/touch.js"></script>
-<script src="js/idangerous.swiper.min.js"></script>
 <script src="js/public.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
 <script>
-    $(function(){
         var _slide = $('.swiper-wrapper>.swiper-slide');
         var arr = [];
         //获取初始化各个.swiper-slide的高度;
@@ -254,7 +251,7 @@
             }
         });
         $(".swiper-wrapper").height(arr[0]);
-        $(".tabs li").on('click',function(e){
+        $(".tabs li").on('tap',function(e){
             e.preventDefault();
             $(".tabs .default").removeClass('default');
             $(this).addClass('default');
@@ -266,8 +263,8 @@
         });
         $(".swiper-slide").on('swipeLeft',function(){
             $(".swiper-wrapper").height(arr[$(this).index()+1]);
-        })
-    })
+        });
+       // $(function(){ })
 </script>
 </body>
 </html>
